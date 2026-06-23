@@ -27,6 +27,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    transition: 0.2s;
 }
 
 .container {
@@ -59,10 +60,16 @@ a {
     color: var(--cbc-navy);
     cursor: pointer;
     position: relative;
+    transition: 0.2s;
 }
 
 .side-widget-item:last-child {
     border-bottom: none;
+}
+
+.side-widget-item:hover {
+    background: var(--cbc-lavender);
+    color: var(--cbc-orange);
 }
 
 .side-widget-badge {
@@ -108,6 +115,12 @@ a {
     color: #333;
     text-decoration: none;
     border-bottom: 1px dotted #333;
+    transition: 0.2s;
+}
+
+.top-menu a:hover {
+    color: var(--cbc-navy);
+    border-bottom-color: var(--cbc-navy);
 }
 
 .slogan {
@@ -139,7 +152,13 @@ a {
     font-weight: bold;
     cursor: pointer;
     border-radius: 2px;
+    transition: 0.2s;
 }
+.btn-orange-call:hover {
+    background: var(--cbc-orange-hover);
+    transform: scale(1.02);
+}
+
 .btn-orange {
     background: #ffad33;
     color: white;
@@ -148,6 +167,11 @@ a {
     font-weight: bold;
     cursor: pointer;
     border-radius: 2px;
+    transition: 0.2s;
+}
+.btn-orange:hover {
+    background: var(--cbc-orange-hover);
+    transform: scale(1.02);
 }
 
 .header-middle-row {
@@ -176,6 +200,10 @@ a {
     background: none;
     border: none;
     cursor: pointer;
+    transition: 0.2s;
+}
+.search-btn:hover {
+    background: var(--cbc-lavender);
 }
 
 .info-contacts {
@@ -188,6 +216,10 @@ a {
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: 0.2s;
+}
+.info-item:hover {
+    color: var(--cbc-navy);
 }
 
 .info-icon {
@@ -210,6 +242,11 @@ a {
 .nav-links a {
     color: #333;
     text-decoration: none;
+    transition: 0.2s;
+}
+.nav-links a:hover {
+    color: var(--cbc-navy);
+    transform: translateY(-1px);
 }
 
 /* --- ГЕРОЙ-СЕКЦИЯ (Каталог + Слайдер) --- */
@@ -246,11 +283,18 @@ a {
     border-bottom: 1px solid var(--cbc-gray-light);
     font-size: 0.8rem;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .catalog-item:hover {
     background: var(--cbc-gray-light);
     color: var(--cbc-navy);
+}
+.catalog-item:hover span {
+    transform: translateX(4px);
+}
+.catalog-item span {
+    transition: 0.2s;
 }
 
 .catalog-item-left {
@@ -338,6 +382,12 @@ a {
     height: 8px;
     border-radius: 50%;
     border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.dot:hover {
+    background: #fff;
+    transform: scale(1.2);
 }
 
 .dot.active {
@@ -373,6 +423,11 @@ a {
     padding: 25px 20px;
     text-align: center;
     background: #fff;
+    transition: 0.3s;
+}
+.benefit-card:hover {
+    box-shadow: 0 8px 24px rgba(27, 50, 129, 0.08);
+    transform: translateY(-4px);
 }
 
 .benefit-card.span-2-rows {
@@ -387,6 +442,10 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.3;
+}
+.benefit-card.span-2-rows:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(27, 50, 129, 0.12);
 }
 
 .benefit-icon {
@@ -448,6 +507,7 @@ a {
     font-size: 14px;
     text-decoration: none;
     border-bottom: 1px dotted var(--cbc-navy);
+    transition: 0.2s;
 }
 
 .products-header .view-all:hover {
@@ -563,6 +623,7 @@ a {
 
 .btn-add-cart:hover {
     background: var(--cbc-orange);
+    transform: scale(1.05);
 }
 
 /* --- АДАПТИВ ДЛЯ ТОВАРОВ --- */
@@ -654,6 +715,7 @@ a {
 .cat-box:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     border-color: #d0d5e0;
+    transform: translateY(-2px);
 }
 
 .cat-img img {
@@ -691,6 +753,7 @@ a {
 
 .cat-box.action-box:hover {
     background: var(--cbc-orange-hover);
+    transform: scale(1.02);
 }
 
 /* --- АДАПТИВ ДЛЯ КАТЕГОРИЙ --- */
@@ -800,11 +863,13 @@ a {
     text-align: center;
     border: 1px solid transparent;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .trust-delivery-item:hover {
     border-color: var(--cbc-navy);
     box-shadow: 0 4px 12px rgba(27, 50, 129, 0.08);
+    transform: translateY(-2px);
 }
 
 .td-icon img {
@@ -993,18 +1058,18 @@ a {
     background: #fff;
     color: var(--cbc-navy);
 }
-
 .office-card .btn-white:hover {
     background: var(--cbc-lavender);
+    transform: scale(1.02);
 }
 
 .office-card .btn-orange {
     background: var(--cbc-orange);
     color: #fff;
 }
-
 .office-card .btn-orange:hover {
     background: var(--cbc-orange-hover);
+    transform: scale(1.02);
 }
 
 .blue-card {
@@ -1060,6 +1125,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.2s;
+}
+.twin-card:hover {
+    box-shadow: 0 4px 16px rgba(27, 50, 129, 0.06);
 }
 
 .twin-info {
@@ -1111,6 +1180,10 @@ a {
     font-size: 0.8rem;
     color: var(--cbc-navy);
     font-weight: 700;
+    transition: 0.2s;
+}
+.gov-header a:hover {
+    color: var(--cbc-orange);
 }
 
 .gov-logos {
@@ -1122,8 +1195,14 @@ a {
     font-size: 0.8rem;
     text-align: center;
 }
+.gov-logos div {
+    transition: 0.2s;
+}
+.gov-logos div:hover {
+    color: var(--cbc-orange);
+    transform: translateY(-1px);
+}
 
-/* --- СЕРВИСНЫЙ ЦЕНТР --- */
 /* --- СЕРВИСНЫЙ ЦЕНТР --- */
 .service-banner {
     padding: 40px 0;
@@ -1178,6 +1257,7 @@ a {
 .btn-outline:hover {
     background: var(--cbc-navy);
     color: #fff;
+    transform: scale(1.02);
 }
 
 /* --- АДАПТИВ ДЛЯ СЕРВИСНОГО ЦЕНТРА --- */
@@ -1270,6 +1350,11 @@ a {
 .trust-line img {
     max-height: 50px;
     width: auto;
+    transition: 0.3s;
+}
+.trust-line img:hover {
+    transform: scale(1.08);
+    filter: brightness(0.95);
 }
 
 /* --- ФОРМА ОБРАТНОЙ СВЯЗИ --- */
@@ -1323,6 +1408,13 @@ a {
     border: 1px solid var(--cbc-border);
     border-radius: 4px;
     font-size: 0.85rem;
+    transition: 0.2s;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--cbc-navy);
+    box-shadow: 0 0 0 3px rgba(27, 50, 129, 0.1);
+    outline: none;
 }
 
 .checkbox-group {
@@ -1381,6 +1473,10 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: 0.2s;
+}
+.map-list li:hover {
+    color: var(--cbc-navy);
 }
 
 .map-list img {
@@ -1468,6 +1564,7 @@ a {
         min-height: 180px;
     }
 }
+
 /* --- ПОДВАЛ --- */
 .site-footer {
     background-color: #f4f4f9;
@@ -1502,6 +1599,11 @@ a {
     text-decoration: none;
     color: #555;
     font-size: 13px;
+    transition: 0.2s;
+}
+.footer-col a:hover {
+    color: var(--cbc-navy);
+    padding-left: 4px;
 }
 
 .footer-social {
@@ -1512,6 +1614,10 @@ a {
 
 .footer-social img {
     width: 24px;
+    transition: 0.2s;
+}
+.footer-social img:hover {
+    transform: scale(1.1);
 }
 
 .footer-contacts p {
@@ -1648,7 +1754,6 @@ a {
         padding: 15px 0;
     }
     .hero-slider-image {
-        display: none;
         min-height: 250px;
         padding: 20px;
     }
