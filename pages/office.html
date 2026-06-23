@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="office.css">
+    <title>СВС — Компьютерный магазин</title>
+</head>
+<body>
+
+    <div class="side-widget">
+        <div class="side-widget-item"><img src="../icons/cart.svg" alt="Корзина"><span class="side-widget-badge">0</span></div>
+        <div class="side-widget-item"><img src="../icons/heart.svg" alt="Избранное"></div>
+        <div class="side-widget-item"><img src="../icons/rating.svg" alt="Сравнение"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <!-- ===== ВЕРХНЯЯ СТРОКА ===== -->
+            <div class="header-top-row">
+                <div class="logo-area">
+                    <img src="../img/logo.png" alt="СВС" class="header-logo">
+                </div>
+                
+                <div class="header-center-block">
+                    <nav class="top-menu">
+                        <a href="#">Сервисный центр</a>
+                        <a href="#">Доставка и оплата</a>
+                        <a href="#">Отзывы</a>
+                        <a href="#">Личный кабинет</a>
+                        <a href="#">О компании</a>
+                        <a href="#">Контакты</a>
+                    </nav>
+                    <div class="slogan">СВС – надежный поставщик компьютерной техники рядом с вами. 28 лет в Жуковском</div>
+                </div>
+
+                <div class="header-contacts-right">
+                    <div class="phone-block">
+                        <img src="../icons/phone.svg" alt="Телефон" class="phone-icon">
+                        <span class="phone-number">+7 495 723-09-69</span>
+                    </div>
+                    <button class="btn-orange-call">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+            </div>
+
+            <!-- ===== СРЕДНЯЯ СТРОКА ===== -->
+            <div class="header-middle-row">
+                <div class="search-box">
+                    <input type="text" placeholder="Поиск">
+                    <button class="search-btn"><img src="../icons/search.png" alt="Поиск"></button>
+                </div>
+                <div class="info-contacts">
+                    <div class="info-item">
+                        <img src="../icons/mail.svg" alt="Email" class="info-icon">
+                        <span><b>mail@svs93.ru</b></span>
+                    </div>
+                    <div class="info-item">
+                        <img src="../icons/geo.svg" alt="Адрес" class="info-icon">
+                        <span><b>г. Жуковский</b><br>ул. Московская, 1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== НИЖНЯЯ НАВИГАЦИЯ ===== -->
+        <nav class="header-bottom-nav">
+            <div class="container nav-links">
+                <a href="#">КОМПЛЕКСНАЯ ПОСТАВКА</a>
+                <a href="#">ПУСКО-НАЛАДКА IT-ОБОРУДОВАНИЯ</a>
+                <a href="#">АУДИТ И ОПТИМИЗАЦИЯ ПАРКА ПЕЧАТИ</a>
+                <a href="#">ТЕНДЕРЫ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== ГЕРОЙ-СЕКЦИЯ (уже с container) ===== -->
+        <section class="hero-section container">
+            <aside class="catalog-menu">
+                <div class="catalog-header">Каталог</div>
+                <ul class="catalog-list">
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/pk.svg" class="catalog-icon"> Компьютеры и комплектующие</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/per.svg" class="catalog-icon"> Периферия и аксессуары</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/camera.svg" class="catalog-icon"> Цифровое фото и видео</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/provolka.svg" class="catalog-icon"> Сетевое оборудование</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/gaika.svg" class="catalog-icon"> Расходные материалы</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/mp.svg" class="catalog-icon"> Смартфоны, планшеты и аксессуары</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/monitor.svg" class="catalog-icon"> Телевизоры, аудио- видео техника...</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/auto.svg" class="catalog-icon"> Автомобильная техника и электроника</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/shield.svg" class="catalog-icon"> Системы безопасности, СКС...</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/sport.svg" class="catalog-icon"> Спорт, активный отдых, хобби</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/printer.svg" class="catalog-icon"> Офисная техника</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/cam.svg" class="catalog-icon"> Канцтовары и мебель</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/actions.svg" class="catalog-icon"> Акции</div><span>&gt;</span></li>
+                    <li class="catalog-item"><div class="catalog-item-left"><img src="../icons/new.svg" class="catalog-icon"> Новинки</div><span>&gt;</span></li>
+                </ul>
+            </aside>
+
+            <div class="hero-slider-wrapper bracket-bottom-right">
+                <div class="hero-slider-text">
+                    <h3>Компьютерный магазин СВС в Жуковском</h3>
+                    <h1>Поставки компьютерной техники, сервис-центр<br>и услуги для компаний по IT-интеграции</h1>
+                </div>
+                <div class="hero-slider-image">
+                    <div class="slider-overlay-text">Поставки компьютерной техники для офисов под "ключ"</div>
+                    <button class="btn-orange" style="padding: 12px 24px; z-index: 2;">Узнать предложения</button>
+                    <div class="slider-controls">
+                        <div class="dot"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="../index.html">Главная</a>
+                <span class="sep">/</span>
+                <a href="/catalog">Комплексные поставки</a>
+                <span class="sep">/</span>
+                <span class="current">Офис под ключ</span>
+            </nav>
+        </div>
+        <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+        <section class="benefits-section">
+            <div class="container">
+                <div class="benefits-grid">
+                    <div class="benefit-card span-2-rows">Работать с СВС<br>ВЫГОДНО<br>И НАДЕЖНО</div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><img src="../icons/shield2.svg" alt="check"></div>
+                        <h4>Надежный поставщик</h4>
+                        <p>С 1993 года на рынке<br>Московской обл. и г. Жуковского</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><img src="../icons/house.svg" alt="pc"></div>
+                        <h4>Полный комплекс</h4>
+                        <p>Поставка, ремонт<br>и обслуживание в сервис-центре СВС</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><img src="../icons/key.svg" alt="key"></div>
+                        <h4>Заказ под ключ</h4>
+                        <p>Подберем технику "под ключ"<br>от периферии до серверов</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><img src="../icons/del.svg" alt="delivery"></div>
+                        <h4>Прямые поставки</h4>
+                        <div class="brands-logos">Asus HP Samsung Intel Lenovo</div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><img src="../icons/medal.svg" alt="medal"></div>
+                        <h4>Качественный сервис</h4>
+                        <p>Авторизованные технические специалисты, которые за это отвечают</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><img src="../icons/peoples.svg" alt="users"></div>
+                        <h4>Сотрудничество</h4>
+                        <p>Работаем с физическими и юридическими лицами по безналу, ТЗ, госзакупкам</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТОВАРЫ №1 (ХИТЫ ПРОДАЖ) ===== -->
+        <section class="products-carousel">
+            <div class="container">
+                <div class="products-header">
+                    <h2>Хиты продаж</h2>
+                    <a href="#" class="view-all">Смотреть все →</a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product1.png" alt="Xiaomi Poco X3 Pro"></div>
+                        <div class="product-title">Смартфон Xiaomi Poco X3 Pro 128Gb 6Gb голубой</div>
+                        <div class="product-art">Артикул: 1514353</div>
+                        <div class="product-price">23 985 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product2.png" alt="Гарнитура Digma"></div>
+                        <div class="product-title">Гарнитура беспроводная Digma TWS-10 белый</div>
+                        <div class="product-art">Артикул: 1151107</div>
+                        <div class="product-price">1 041 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product3.png" alt="Смарт-часы Jet Kid"></div>
+                        <div class="product-title">Смарт-часы Jet Kid Pinkie Pie 40mm 1.44" TFT розовый</div>
+                        <div class="product-art">Артикул: 1178769</div>
+                        <div class="product-price">3 615 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== КОМПЛЕКСНЫЕ ПОСТАВКИ (ПАРНЫЕ БАННЕРЫ) ===== -->
+        <section class="bracket-wrapper">
+            <div class="container">
+                <div class="twin-banners">
+                    <div class="twin-card">
+                        <div class="twin-info">
+                            <h3>Комплексные поставки компьютерного оборудования для вашего офиса в Жуковском</h3>
+                            <p>Обеспечим бесперебойную работу вашего бизнеса надежной техникой</p>
+                            <button class="btn-orange">Подобрать технику</button>
+                        </div>
+                        <div class="twin-icon"><img src="../img/undraw_monitor_iqpq-removebg-preview 1.png" alt="pc"></div>
+                    </div>
+                    <div class="twin-card">
+                        <div class="twin-info">
+                            <h3>Оборудуем офис "под ключ"</h3>
+                            <p>Подберем, привезем, настроим и запустим рабочие места и серверы</p>
+                            <button class="btn-orange">Оформить заявку</button>
+                        </div>
+                        <div class="twin-icon"><img src="../img/ssss.png" alt="admin"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТОВАРЫ №2 (ПОСЛЕ БАННЕРОВ) ===== -->
+        <section class="products-carousel">
+            <div class="container">
+                <div class="products-header">
+                    <h2>Популярные товары</h2>
+                    <a href="#" class="view-all">Смотреть все →</a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product1.png" alt="Xiaomi Poco X3 Pro"></div>
+                        <div class="product-title">Смартфон Xiaomi Poco X3 Pro 128Gb 6Gb голубой</div>
+                        <div class="product-art">Артикул: 1514353</div>
+                        <div class="product-price">23 985 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product2.png" alt="Гарнитура Digma"></div>
+                        <div class="product-title">Гарнитура беспроводная Digma TWS-10 белый</div>
+                        <div class="product-art">Артикул: 1151107</div>
+                        <div class="product-price">1 041 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product3.png" alt="Смарт-часы Jet Kid"></div>
+                        <div class="product-title">Смарт-часы Jet Kid Pinkie Pie 40mm 1.44" TFT розовый</div>
+                        <div class="product-art">Артикул: 1178769</div>
+                        <div class="product-price">3 615 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ГОСЗАКУПКИ ===== -->
+        <section class="gov-banner">
+            <div class="container">
+                <div class="gov-header">
+                    <h3>Работаем с государственными заказчиками <br>по требованиям ТЗ</h3>
+                    <a href="#">УЗНАТЬ О ВОЗМОЖНОСТЯХ ➔</a>
+                </div>
+                <div class="gov-logos">
+                    <div>Авиационный техникум им. В.А. Казакова</div>
+                    <div>МФТИ</div>
+                    <div>ФГУП НИИАО</div>
+                    <div>ФГУП ЦАГИ</div>
+                    <div>АО ЛИИ им. Громова</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТОП КАТЕГОРИЙ ===== -->
+        <section class="category-grid">
+            <div class="container">
+                <div class="category-grid-wrapper">
+                    <!-- Заголовок -->
+                    <div class="cat-box title-box">
+                        <h3>Топ категорий<br>СВС</h3>
+                    </div>
+                    
+                    <!-- Карточки категорий -->
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/proc.png" alt="Процессоры"></div>
+                        <div class="cat-title">Процессоры</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/nout.png" alt="Ноутбуки"></div>
+                        <div class="cat-title">Ноутбуки</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/system.png" alt="Системные блоки"></div>
+                        <div class="cat-title">Системные блоки</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/mon.png" alt="Мониторы"></div>
+                        <div class="cat-title">Мониторы</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/printer.png" alt="Принтеры"></div>
+                        <div class="cat-title">Принтеры</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/mfu.png" alt="МФУ"></div>
+                        <div class="cat-title">МФУ</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/videocards.png" alt="Видеокарты"></div>
+                        <div class="cat-title">Видеокарты</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/cartridge.png" alt="Картриджи"></div>
+                        <div class="cat-title">Картриджи</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/myc.png" alt="Микрофоны"></div>
+                        <div class="cat-title">Микрофоны</div>
+                    </a>
+                    
+                    <a href="#" class="cat-box">
+                        <div class="cat-img"><img src="../img/tech.png" alt="Комплектующие для ПК"></div>
+                        <div class="cat-title">Комплектующие для ПК</div>
+                    </a>
+                    
+                    <!-- Кнопка "Все категории" -->
+                    <div class="cat-box action-box">ВСЕ КАТЕГОРИИ ➔</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТОВАРЫ №3 (ПОСЛЕ КАТЕГОРИЙ) ===== -->
+        <section class="products-carousel">
+            <div class="container">
+                <div class="products-header">
+                    <h2>Новинки</h2>
+                    <a href="#" class="view-all">Смотреть все →</a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product1.png" alt="Xiaomi Poco X3 Pro"></div>
+                        <div class="product-title">Смартфон Xiaomi Poco X3 Pro 128Gb 6Gb голубой</div>
+                        <div class="product-art">Артикул: 1514353</div>
+                        <div class="product-price">23 985 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product2.png" alt="Гарнитура Digma"></div>
+                        <div class="product-title">Гарнитура беспроводная Digma TWS-10 белый</div>
+                        <div class="product-art">Артикул: 1151107</div>
+                        <div class="product-price">1 041 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product3.png" alt="Смарт-часы Jet Kid"></div>
+                        <div class="product-title">Смарт-часы Jet Kid Pinkie Pie 40mm 1.44" TFT розовый</div>
+                        <div class="product-art">Артикул: 1178769</div>
+                        <div class="product-price">3 615 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">В наличии / На складе</div>
+                        <div class="product-image"><img src="../img/product4.png" alt="Apple iPad Air 2020"></div>
+                        <div class="product-title">Планшет Apple iPad Air 2020 MYH42RU/AA14</div>
+                        <div class="product-art">Артикул: 1419381</div>
+                        <div class="product-price">103 385 ₽</div>
+                        <button class="btn-add-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== РЕМОНТ И СЕРВИС ===== -->
+        <section class="bracket-wrapper">
+            <div class="container">
+                <div class="twin-banners">
+                    <div class="twin-card">
+                        <div class="twin-info">
+                            <h3>Ремонт и плановое сервисное обслуживание</h3>
+                            <p>Обеспечим безопасность и высокую производительность инфраструктуры.</p>
+                            <button class="btn-orange">Вызвать мастера</button>
+                        </div>
+                        <div class="twin-icon"><img src="../img/tools.png" alt="tools"></div>
+                    </div>
+                    <div class="twin-card">
+                        <div class="twin-info">
+                            <h3>У вас много принтеров?</h3>
+                            <p>Аутсорсинг печати избавит от проблем. Экономия до 30% бюджета.</p>
+                            <button class="btn-orange">Узнать еще</button>
+                        </div>
+                        <div class="twin-icon"><img src="../img/money.png" alt="printer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== СЕРВИСНЫЙ ЦЕНТР ===== -->
+        <!-- ===== СЕРВИСНЫЙ ЦЕНТР ===== -->
+        <section class="service-banner">
+            <div class="container service-banner-inner">
+                <div class="service-banner-content">
+                    <h3>Ремонт и обслуживание в сервис-центре СВС</h3>
+                    <p>Компонентный ремонт, диагностика, оригинальные комплектующие.</p>
+                    <button class="btn-outline">Посмотреть все услуги ➔</button>
+                </div>
+                <div class="service-ill">
+                    <img src="../img/repair.png" alt="repair">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== СВС ЖУКОВСКИЙ - ПОСТАВЩИК ===== -->
+        <section class="supplier-banner">
+            <div class="container">
+                <div class="supplier-content">
+                    <div class="supplier-icon"><img src="../img/logo.png" alt="СВС"></div>
+                    <div class="supplier-text">
+                        <h3>СВС Жуковский - поставщик компьютерной техники<br>крупных промышленных и государственных предприятий</h3>
+                        <p>Комплексные поставки компьютерного оборудования для вашего офиса в Жуковском</p>
+                        <p class="supplier-highlight">Специалист бесплатно подберет решение под ваши требования.</p>
+                    </div>
+                    <div class="supplier-buttons">
+                        <button class="btn-orange">Узнать о работе с тендерами</button>
+                        <button class="btn-outline">Подобрать технику</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ОБОРУДУЕМ ОФИС ===== -->
+        <section class="office-equip">
+            <div class="container">
+                <div class="office-equip-grid">
+                    <div class="office-card blue-card">
+                        <h3>Оборудуем офис</h3>
+                        <p>Компьютерной техникой, периферией, мебелью, канцтоварами, а также вкусным кофе</p>
+                        <button class="btn-white">Собрать офис</button>
+                    </div>
+                    <div class="office-card dark-card">
+                        <h3>Решаем сложные задачи интеграции</h3>
+                        <p>Поставим, настроим и запустим IT-инфраструктуру в ваш бизнес</p>
+                        <button class="btn-orange">Внедрить оборудование</button>
+                    </div>
+                    <div class="office-card dark-card">
+                        <h3>Бесплатный тест оборудования</h3>
+                        <p>Предоставим бесплатный тест компьютерного оборудования, чтобы всё работало как надо</p>
+                        <button class="btn-orange">Получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== НАМ ДОВЕРЯЮТ (БРЕНДЫ) ===== -->
+        <section class="trust-section">
+            <div class="container">
+                <h3>Нам доверяют</h3>
+                <div class="trust-line">
+                    <img src="../img/c1.png" alt=""><img src="../img/c2.png" alt=""><img src="../img/c3.png" alt=""><img src="../img/c4.png" alt=""><img src="../img/c5.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ФОРМА ОБРАТНОЙ СВЯЗИ ===== -->
+        <section class="feedback-section">
+            <div class="container">
+                <div class="feedback-header">
+                    <h2>Нужна консультация?</h2>
+                </div>
+                <div class="feedback-box">
+                    <div class="feedback-ill"><img src="../img/sup.png" alt="support"></div>
+                    <form>
+                        <div class="form-group"><input type="text" placeholder="Имя *"></div>
+                        <div class="form-group"><input type="tel" placeholder="Номер телефона *"></div>
+                        <button type="button" class="btn-orange">Получить консультацию</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== КАРТА И КОНТАКТЫ ===== -->
+        <section class="map-section">
+            <div class="container">
+                <div class="map-wrapper">
+                    <div class="map-info">
+                        <h3>Магазин СВС в Жуковском</h3>
+                        <ul class="map-list">
+                            <li><img src="../icons/geo.svg" alt="Адрес"> г. Жуковский, ул. Московская, д.1</li>
+                            <li><img src="../icons/phone.svg" alt="Телефон"> +7 (495) 723-09-69</li>
+                            <li><img src="../icons/mail.svg" alt="Email"> Svs93@mail.ru</li>
+                            <li><img src="../icons/clock.svg" alt="Часы"> Пн – Чт: с 9:00 до 19:00 Пт: с 9:00 до 17:00</li>
+                            <li><img src="../icons/clock.svg" alt="Часы"> Сб - Вс: принимаем онлайн-заказы</li>
+                        </ul>
+                    </div>
+                    <div class="map-frame">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A..." width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== ПОДВАЛ ===== -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <img src="../img/logo.png" alt="СВС" class="footer-logo">
+                <p>СВС - надежный поставщик компьютерной техники рядом с вами. 28 лет в Жуковском</p>
+            </div>
+
+            <div class="footer-col">
+                <h5>ПОПУЛЯРНЫЕ КАТЕГОРИИ</h5>
+                <ul>
+                    <li><a href="#">Компьютерные поставки и комплектующие</a></li>
+                    <li><a href="#">Принтеры и МФУ</a></li>
+                    <li><a href="#">Видеокарты</a></li>
+                    <li><a href="#">Картриджи</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5>УСЛУГИ</h5>
+                <ul>
+                    <li><a href="#">Поставки картриджей в офис</a></li>
+                    <li><a href="#">Пуско-наладка оборудования</a></li>
+                    <li><a href="#">Аудит парка печатной техники</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5>ИНФОРМАЦИЯ</h5>
+                <ul>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Гарантии</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">О компании СВС</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-social">
+                <img src="../icons/vk.svg" alt="VK">
+                <img src="../icons/us.svg" alt="User">
+            </div>
+
+            <div class="footer-col footer-contacts">
+                <h5>КОНТАКТЫ</h5>
+                <p><img src="../icons/phone.svg" alt="тел"> +7 495 723-09-69</p>
+                <p><img src="../icons/mail.svg" alt="почта"> Svs93@mail.ru</p>
+                <p><img src="../icons/geo.svg" alt="адрес"> <b>г. Жуковский</b><br>ул. Московская, 1</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
